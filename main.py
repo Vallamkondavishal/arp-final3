@@ -4,7 +4,7 @@ import random
 
 # Client 1
 
-conn = Client(('localhost', 6000), authkey=b'secret password') 
+conn = Client(('localhost', 8888), authkey=b'secret password') 
 
 # write to the socket which url port which is local 6000
 i = 0
