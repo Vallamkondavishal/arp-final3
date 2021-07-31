@@ -6,7 +6,7 @@ import random
 
 conn = Client(('localhost', 8888), authkey=b'secret password') 
 
-# write to the socket which url port which is local 6000
+# write to the socket which url port which is local 8888
 i = 0
 while(i!=5):
     conn.send("philosopher "+str(i)+" enter the restaurant")
